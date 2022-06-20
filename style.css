@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 90%;
+  min-height: 230px;
+  margin: auto;
+  display: flexbox;
+}
+.header .top {
+  width: 100%;
+  border: inherit;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.header .top .navbar {
+  width: 40%;
+  border: inherit;
+  display: flex;
+}
+.header .top .navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border: inherit;
+  width: 75%;
+  height: 35px;
+}
+.header .top .navbar ul li {
+  border-right: 2px solid white;
+  padding: 3px;
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+.header .top .navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header .top .form {
+  margin-top: 10px;
+  width: 18%;
+  border: inherit;
+}
+.header .top .form input {
+  border-radius: 10px;
+  height: 25px;
+}
+.header .top .form i {
+  color: white;
+  background-color: red;
+  position: absolute;
+  top: 13px;
+  right: 125px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.logo {
+  width: 30%;
+  border: inherit;
+  justify-content: center;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.logo h1 {
+  font-size: 45px;
+}
+
+.img1 {
+  position: absolute;
+  top: 100px;
+  left: 80%;
+}
+.img1 img {
+  width: 35px;
+}
+.img1 a {
+  text-decoration: none;
+}
+.img1 a :hover {
+  opacity: 0;
+  background-color: orangered;
+}
+
+.navbar1 {
+  width: 88.5%;
+  height: 30px;
+  border: inherit;
+  background-color: black;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+}
+.navbar1 ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.navbar1 a {
+  margin-top: 5px;
+  padding: 25px;
+  justify-content: space-around;
+  color: white;
+  text-decoration: none;
+}
+.navbar1 a:hover {
+  color: red;
+}
+
+.main1 {
+  width: 88%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.main1 .image {
+  width: 42%;
+  border: inherit;
+}
+.main1 .image img {
+  width: 100%;
+  height: 440px;
+}
+.main1 .text {
+  width: 50%;
+  border: inherit;
+  margin-left: 80px;
+  align-items: flex-end;
+}
+.main1 .text h1 {
+  font-size: 130px;
+  align-items: flex-end;
+}
+.main1 .button1 {
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+  border: inherit;
+}
+.main1 .button1 a {
+  text-decoration: none;
+  color: red;
+}
+
+.main2 {
+  width: 88%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  background-color: rgba(204, 197, 197, 0.664);
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.main2 .cont1 {
+  width: 33%;
+  border: inherit;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.main2 .cont1 a {
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+  text-decoration: none;
+  color: red;
+}
+.main2 .cont1 h1 {
+  margin-left: 11px;
+}
+.main2 .cont1 p {
+  border: inherit;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.main2 .cont1 img {
+  width: 350px;
+  height: 140px;
+  border: inherit;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.main2 .cont2 {
+  width: 33%;
+  border: inherit;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.main2 .cont2 h1 {
+  margin-left: 11px;
+}
+.main2 .cont2 a {
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+  text-decoration: none;
+  color: red;
+}
+.main2 .cont2 .box {
+  width: 95%;
+  border: inherit;
+  display: flex;
+  margin: 5px;
+}
+.main2 .cont2 .box p {
+  font-size: 18.5px;
+  margin-top: 5px;
+}
+.main2 .cont2 .box img {
+  width: 85px;
+  height: 80px;
+  margin: 5px;
+}
+.main2 .cont3 {
+  width: 33%;
+  border: inherit;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.main2 .cont3 .box2 {
+  border: inherit;
+}
+.main2 .cont3 .box2 p {
+  font-size: 20px;
+}
+.main2 .cont3 .box2 span {
+  font-size: 38px;
+}
+.main2 .cont3 .box2 a {
+  position: absolute;
+  bottom: 225px;
+  right: 8px;
+  text-decoration: none;
+  color: red;
+}
+.main2 .cont3 .box3 {
+  border: inherit;
+  margin-top: 35px;
+}
+.main2 .cont3 .box3 p {
+  font-size: 20px;
+}
+.main2 .cont3 .box3 span {
+  font-size: 38px;
+}
+.main2 .cont3 .box3 a {
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+  text-decoration: none;
+  color: red;
+}
+
+.footer {
+  width: 88%;
+  min-height: 400px;
+  margin: auto;
+  display: flex;
+}
+.footer .foot1 {
+  width: 30%;
+  border: inherit;
+}
+.footer .foot1 span {
+  position: relative;
+  top: 20px;
+  color: red;
+}
+.footer .foot1 p {
+  margin-top: 20px;
+}
+.footer .foot2 {
+  width: 30%;
+  border: inherit;
+}
+.footer .foot2 ul {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.footer .foot2 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.footer .foot3 {
+  width: 30%;
+  border: inherit;
+  position: relative;
+}
+.footer .foot3 a {
+  color: red;
+  position: absolute;
+  top: 160px;
+  right: 5px;
+  text-decoration: none;
+}
+.footer .foot3 h3 {
+  margin-top: 20px;
+}
+.footer .foot4 {
+  width: 30%;
+  border: inherit;
+  position: relative;
+}
+.footer .foot4 h1 {
+  position: absolute;
+  left: 15px;
+}
+.footer .foot4 form {
+  border: inherit;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+.footer .foot4 form input {
+  width: 92%;
+  margin: 8px;
+}
+.footer .foot4 form textarea {
+  margin: 8px;
+}/*# sourceMappingURL=style.css.map */
